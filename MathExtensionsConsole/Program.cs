@@ -16,8 +16,11 @@ namespace MathExtensionsConsole
             int c = 2;
             var d = c.Max(3);
             double[] e = new double[] { 1, 2, 3, 4 };
+            double[] f = new double[] { 2, 3, 6, 1 };
 
-            var f = e.Where(e.GreaterThan(1).And(e.LessThan(4)));
+            var aa = e.Minus(f).Plus(2);
+
+            //var f = e.Where(e.GreaterThan(1).And(e.LessThan(4)));
         }
     }
 }

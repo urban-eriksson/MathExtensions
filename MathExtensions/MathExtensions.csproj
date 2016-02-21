@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayExtensions.cs" />
     <Compile Include="ComplexExtensions.cs" />
     <Compile Include="MathExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
